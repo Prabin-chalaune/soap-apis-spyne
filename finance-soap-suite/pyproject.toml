@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[project]
+name = "finance-soap-suite"
+version = "0.1.0"
+description = "SOAP APIs for finance/enterprise demo using Spyne"
+requires-python = ">=3.10"

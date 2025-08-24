@@ -1,0 +1,15 @@
+Related Docs:
+https://zuplo.com/learning-center/creating-soap-apis-in-python
+https://apsl.tech/en/blog/parsing-huge-soap-messages-optimizing-memory-python/
+https://knowledgecenter.zuora.com/Zuora_Platform/Integration/API/G_SOAP_API
+https://docs.rapidapi.com/docs/soap-apis
+https://docs.oracle.com/en/cloud/saas/applications-common/24c/biacc/soap-api.html
+
+
+GraphQl APis:
+1. https://docs.rapidapi.com/docs/graphql-apis
+
+After running soap server xml code is generated.
+- generates a WSDL file (XML definition of the service, operations, request/response types).
+- serves SOAP requests/responses as XML over HTTP.
+- we don’t see raw XML in the Python code because Spyne abstracts it into Python functions and data models. But the server exposes XML.
